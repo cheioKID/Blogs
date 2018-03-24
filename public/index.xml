@@ -35,6 +35,18 @@
     </item>
     
     <item>
+      <title>如何在github.io搭建Hugo博客</title>
+      <link>http://localhost:1313/post/learn-markdown/</link>
+      <pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/learn-markdown/</guid>
+      
+        <description>&lt;p&gt;hello goodbye&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>Jane Theme Preview</title>
       <link>http://localhost:1313/post/jane-theme-preview/</link>
       <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
