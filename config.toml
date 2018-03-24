@@ -4,6 +4,8 @@ enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
 
+disableKinds = ["RSS"]
+
 # language support # en / zh-cn / other...
 defaultContentLanguage = "en"
 [Languages.en]
