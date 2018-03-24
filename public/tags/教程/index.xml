@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>教程 on Jane - A super concise theme for Hugo</title>
-    <link>cheioKID.github.io/tags/%E6%95%99%E7%A8%8B/</link>
+    <link>http://localhost:1313/tags/%E6%95%99%E7%A8%8B/</link>
     <description>Recent content in 教程 on Jane - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 22 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="cheioKID.github.io/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>如何在github.io搭建Hugo博客</title>
-      <link>cheioKID.github.io/post/learn-markdown/</link>
+      <link>http://localhost:1313/post/learn-markdown/</link>
       <pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>cheioKID.github.io/post/learn-markdown/</guid>
+      <guid>http://localhost:1313/post/learn-markdown/</guid>
       <description>hello goodbye</description>
     </item>
     
