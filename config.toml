@@ -1,4 +1,4 @@
-baseURL = "cheioKID.github.io"
+baseURL = "http://localhost:1313/"
 title = "Jane - A super concise theme for Hugo"
 enableRobotsTXT = true
 enableEmoji = true
