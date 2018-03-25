@@ -1,4 +1,5 @@
 #!/bin/bash
+git add .
 if [ $# -lt  1 ]; then
     echo "$0 <commit message>"
     exit 1
@@ -18,7 +19,7 @@ fi
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # Build the project.
-hugo --disableKinds=RSS # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 cd public
