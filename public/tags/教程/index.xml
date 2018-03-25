@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>教程 on Jane - A super concise theme for Hugo</title>
-    <link>https://cheioKID.github.io/tags/%E6%95%99%E7%A8%8B/</link>
-    <description>Recent content in 教程 on Jane - A super concise theme for Hugo</description>
+    <title>教程 on hello goodbye</title>
+    <link>http://localhost:1313/tags/%E6%95%99%E7%A8%8B/</link>
+    <description>Recent content in 教程 on hello goodbye</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 22 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://cheioKID.github.io/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>如何在github.io搭建Hugo博客</title>
-      <link>https://cheioKID.github.io/post/learn-markdown/</link>
+      <link>http://localhost:1313/post/learn-markdown/</link>
       <pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://cheioKID.github.io/post/learn-markdown/</guid>
-      <description>hello goodbye</description>
+      <guid>http://localhost:1313/post/learn-markdown/</guid>
+      <description>hello goodbye
+git remote add origin git@github.com:cheioKID/Blogs.git  git submodule add &amp;ndash;name master git@github.com:cheioKID/cheioKID.github.io.git public
+I am confused about why it suddenly present rss page even though I never try that, like this
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+&amp;lt;rss xmlns:atom=&amp;quot;http://www.w3.org/2005/Atom&amp;quot; version=&amp;quot;2.0&amp;quot;&amp;gt; &amp;lt;channel&amp;gt; &amp;lt;title&amp;gt;hello goodbye&amp;lt;/title&amp;gt; &amp;lt;link&amp;gt;http://cheioKID.github.io/&amp;lt;/link&amp;gt; &amp;lt;description&amp;gt;Recent content on hello goodbye&amp;lt;/description&amp;gt; &amp;lt;generator&amp;gt;Hugo -- gohugo.io&amp;lt;/generator&amp;gt; &amp;lt;language&amp;gt;zh-cn&amp;lt;/language&amp;gt; &amp;lt;lastBuildDate&amp;gt;Sun, 20 Aug 2017 21:38:52 +0800&amp;lt;/lastBuildDate&amp;gt; &amp;lt;atom:link href=&amp;quot;http://cheioKID.</description>
     </item>
     
   </channel>

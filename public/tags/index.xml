@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Jane - A super concise theme for Hugo</title>
+    <title>Tags on hello goodbye</title>
     <link>https://cheioKID.github.io/tags/</link>
-    <description>Recent content in Tags on Jane - A super concise theme for Hugo</description>
+    <description>Recent content in Tags on hello goodbye</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://cheioKID.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Algorithm</title>
+      <link>https://cheioKID.github.io/tags/algorithm/</link>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cheioKID.github.io/tags/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brute Force Method</title>
+      <link>https://cheioKID.github.io/tags/brute-force-method/</link>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cheioKID.github.io/tags/brute-force-method/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Development</title>
@@ -21,20 +39,20 @@
     </item>
     
     <item>
+      <title>Divide and Conquer</title>
+      <link>https://cheioKID.github.io/tags/divide-and-conquer/</link>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cheioKID.github.io/tags/divide-and-conquer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>English</title>
       <link>https://cheioKID.github.io/tags/english/</link>
       <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
       
       <guid>https://cheioKID.github.io/tags/english/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Github</title>
-      <link>https://cheioKID.github.io/tags/github/</link>
-      <pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cheioKID.github.io/tags/github/</guid>
       <description></description>
     </item>
     
@@ -143,15 +161,6 @@
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
       <guid>https://cheioKID.github.io/tags/themes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>教程</title>
-      <link>https://cheioKID.github.io/tags/%E6%95%99%E7%A8%8B/</link>
-      <pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cheioKID.github.io/tags/%E6%95%99%E7%A8%8B/</guid>
       <description></description>
     </item>
     
