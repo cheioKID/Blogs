@@ -11,7 +11,7 @@ comment: true
 
 Finally it works!
 
-{{% music "22518760" %}}
+<iframe src="https://open.spotify.com/embed/track/2pNwQBjJppt8v3sZojH1aj" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 # Here's the steps
 
