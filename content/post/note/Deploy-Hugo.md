@@ -11,7 +11,9 @@ comment: true
 
 Finally it works!
 
-Here's the steps
+{{% music "22518760" %}}
+
+# Here's the steps
 
 
 ## generate new blogs

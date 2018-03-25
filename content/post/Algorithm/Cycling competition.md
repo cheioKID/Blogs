@@ -1,6 +1,6 @@
 ---
 date: 2018-03-25
-title: "循环比赛"
+title: "Cycling competition"
 tags:
 - Algorithm
 - Divide and Conquer
@@ -9,9 +9,11 @@ categories:
 comment: true
 ---
 
-# 循环比赛
+# Cycling competition
 
-## Cycling competition
+## 循环比赛
+
+
 
 - 描述
 

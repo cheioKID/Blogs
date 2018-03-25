@@ -1,6 +1,6 @@
 ---
 date: 2018-03-25
-title: "比饭量"
+title: "Compare Appetite"
 tags:
 - Algorithm
 - Brute force method
@@ -8,9 +8,10 @@ categories:
 - Algorithm
 comment: true
 ---
-# 比饭量
 
-## Compare Appetite
+# Compare Appetite
+
+## 比饭量
 
 - 描述
 

@@ -1,6 +1,6 @@
 baseURL = "https://cheioKID.github.io/"
 #baseURL = "http://localhost:1313/" 
-title = "hello goodbye"
+title = "cheio"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
