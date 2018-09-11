@@ -9,7 +9,7 @@ categories:
 comment: true
 ---
 
-##Max和Furiosa以及其他同伴之间的友情
+## Max和Furiosa以及其他同伴之间的友情
 
 Angharad躲过了碰撞，Max回头，看到幸存的Angharad，微笑，竖起了大拇指。
 
@@ -25,7 +25,7 @@ Furiosa邀请Max同行，Max注视着Furiosa，又移开目光，_I'll make my o
 
 
 
-##Max有没有看到Angharad滚到车轮下
+## Max有没有看到Angharad滚到车轮下
 
 Angharad落下车后，Max转头看到Boss的车驶向她，但Boss调转了方向，Angharad得以幸存。Max已经浸湿了双眼，曾经未能拯救的小女孩的回忆再次闪现。
 
@@ -33,6 +33,6 @@ Furiosa反复问Max _Did you see it_, Max重复回答 _She went under the wheels
 
 Max曾经没有拯救的小女孩也是死于车轮之下。我想，Max的悲伤并不在于Angharad，而是再次亲眼看到自己无力拯救葬身于车轮下的人。
 
-##期待2019年的Max4
+## 期待2019年的Max4
 汤老湿的眼睛可以表达真挚的情感，汤老湿再见！
 18年汤老湿的毒液要上映了，期待
