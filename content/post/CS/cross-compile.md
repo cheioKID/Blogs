@@ -1,3 +1,14 @@
+---
+date: 2018-07-03
+title: "Cross Compile for Arm"
+tags:
+    - Embedded System
+    - Arm
+categories:
+    - CS
+comment: true
+---
+
 ## 安装交叉编译
 
 #### 克隆编译器
@@ -15,13 +26,13 @@ git clone https://github.com/xupsh/CodeSourcery.git
 >		GNU Debug Server (GDBServer)	
 >* GNU Debugger (GDB)Visit:  http://www.codesourcery.comto access the Sourcery CodeBench support website.
 
-####设置环境变量
+#### 设置环境变量
 ```bash
 export CROSS_COMPILE=arm-xilinx-linux-gnueabi-
 export PATH=/home/cheio/CrossCompile/CodeSourcery/bin:$PATH
 ```
 
-####可能出现的错误：
+#### 可能出现的错误：
 ./arm-none-linux-gnueabi-gcc: 没有那个文件或目录
 > LSB（Linux Standards Base）是一套核心标准，它保证了LINUX发行版同LINUX应用程序之间的良好结合
 
@@ -55,7 +66,7 @@ arm-xilinx-linux-gnueabi-gcc -static -o c testcp.c
 
 ## 交叉编译opencv
 
-####make-gui
+#### make-gui
 `Configure`
 
 generator为`Unix Makefiles`
@@ -70,23 +81,23 @@ generator为`Unix Makefiles`
 
 Target Root`/home/cheio/CrossCompile/CodeSourcery/bin`
 
-####修改cmake的配置
+#### 修改cmake的配置
 
 cmake配置修改工作如下：
 
-​    （1）加上BUILD_PNG和BUILD_JPEG
-
-​    （2）去掉WITH_TIFF，WITH_OPENEXR和BUILD_EXAMPLES
-
-​    （3）修改CMAKE_BUILD_TYPE为Release
-
-​    （4）修改CMAKE_INSTALL_PREFIX为/home/cheio/opencv/opencv-arm
+    （1）加上BUILD_PNG和BUILD_JPEG
+    
+    （2）去掉WITH_TIFF，WITH_OPENEXR和BUILD_EXAMPLES
+    
+    （3）修改CMAKE_BUILD_TYPE为Release
+    
+    （4）修改CMAKE_INSTALL_PREFIX为/home/cheio/opencv/opencv-arm
 
 重新Configure, Generate，生成makefile文件。
 
 如果编译静态库：取消勾选`BUILD_SHARED_LIBS`
 
-####修改编译配置
+#### 修改编译配置
 
 ```cmake
 //Flags used by the linker.

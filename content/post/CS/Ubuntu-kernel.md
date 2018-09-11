@@ -1,3 +1,14 @@
+---
+date: 2018-07-02
+title: "Install more than one Kernel for Ubuntu Linux"
+tags:
+    - Linux
+    - Ubuntu
+categories:
+    - CS
+comment: true
+---
+
 Ubuntu 内核 
 
 修改源
