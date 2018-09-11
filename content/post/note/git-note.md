@@ -24,9 +24,9 @@ comment: true
 - 通过`git commit`提交修改，`git commit -m “commit name"` 为本次commit命名
 
 ```bash
-git add . # add all
-git add   # add changed files
-# use git rm --cached <file> to unstage
+git add. # add changed files
+git rm --cached <file> # delete from git
+git checkout <file> # get back the file
 git status
 git commit -m 'Initial commit'
 ```
@@ -36,12 +36,13 @@ git commit -m 'Initial commit'
 - 通过`git log`查看版本控制记录，即**commit历史记录**
 
 - git log --pretty=oneline breif info`
+
 ### 回退
 - 通过`git reset --hard HEAD^`回退到上一个版本，撤销最近一次commit `HEAD`代表当前版本，`HEAD^`代表当前版本的上一个版本，`HEAD^^`代表当前版本的上一个版本的上一个版本
 
 - 通过`git reset —hard <commit-id>`回退到指定id的版本
 
-- 通过`git checkout -- <filename>`撤销工作区的修改
+- 通过`git checkout <filename>`撤销工作区的修改
 
 ### 分支
 - 通过`git checkout -b <branch-name>`创建并切换到该分支**branch**，`git branch`查看当前分支(带\*)，分支之间的修改不互相影响，通过`git merge branch-name`将某分支合并到当前分支
