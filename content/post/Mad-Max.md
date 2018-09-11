@@ -3,7 +3,7 @@ date: 2018-06-15
 title: "Mad Max: Fury Road"
 tags:
     - Movie
-    - Friendship
+    - Tom Hardy
 categories:
     - Movie
 comment: true
