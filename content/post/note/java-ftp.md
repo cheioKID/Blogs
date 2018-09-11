@@ -60,7 +60,8 @@ org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed witho
 最后采用了一种拙劣的方法catch到了`FTPConnectionClosedException`
 
 ```java
-try {
+    		    	try {
+    		    		//used for check connection
     		    		ftpClient.listFiles();
 					} catch (Exception e) {
 						
@@ -73,19 +74,5 @@ try {
 				    		Log.info("successfully relogin for time out exception");
 						}
 					}
-    		    	
-    		    	if(code > 0) {
-    		    		if(ftp.renameDealtFile(filename)) {
-    		    			Log.info("rename " + filename + " successfully, please check done_" + filename + " files");
-    		    		} else {
-    		    			Log.error("rename " + filename + " failed, check FTP errors");
-    		    		}
-    		    	} else {
-    		    		if(ftp.renameFailedFile(filename)) {
-    		    			Log.info("rename " + filename + " successfully, please check failed_" + filename + " files");
-    		    		} else {
-    		    			Log.error("rename " + filename + " failed, check FTP errors");
-    		    		}
-    		    	}
 ```
 
