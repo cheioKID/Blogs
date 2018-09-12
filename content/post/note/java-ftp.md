@@ -60,19 +60,18 @@ org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed witho
 最后采用了一种拙劣的方法catch到了`FTPConnectionClosedException`
 
 ```java
-    		    	try {
-    		    		//used for check connection
-    		    		ftpClient.listFiles();
-					} catch (Exception e) {
-						
-						Log.info(e.getMessage());
-						
-						if (!ftp.login(ftp_url,ftp_port,ftp_username,ftp_password)) {
-							Log.error("FTP reconnect and relogin failed with " + ftp_url + ":" + ftp_port 
-				    				+ ",username: " + ftp_username + ",password: " + ftp_password);
-				    	} else {
-				    		Log.info("successfully relogin for time out exception");
-						}
-					}
+try {
+    //used for check connection
+    ftpClient.listFiles();
+} catch (Exception e) {
+
+    Log.info(e.getMessage());
+
+    if (!ftp.login(ftp_url,ftp_port,ftp_username,ftp_password)) {
+    	Log.error("FTP reconnect and relogin failed with " + ftp_url + ":" + ftp_port + ",username: " + ftp_username + ",password: " + ftp_password);
+    } else {
+    	Log.info("successfully relogin for time out exception");
+    }
+}
 ```
 
