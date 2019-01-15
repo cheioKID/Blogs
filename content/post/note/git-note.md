@@ -65,6 +65,14 @@ git commit -m 'Initial commit'
 
 - 通过`git pull`抓取最新的提交，和本地合并，解决冲突，然后**push**
 
+- 放弃本地修改，采用远程仓库
+
+```bash
+git fetch --all
+git reset --hard origin/master
+git fetch
+```
+
 - 切换到某分支，通过`git tag <name>`，为分支最近一次的commit定义标签**tag**，`git tag`查看所有标签 
 
 ---
