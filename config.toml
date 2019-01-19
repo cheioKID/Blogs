@@ -1,6 +1,6 @@
 baseURL = "https://cheioKID.github.io/"
 #baseURL = "http://localhost:1313/" 
-title = "cheio"
+title = "Have a nice day, cheio"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -79,7 +79,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   autoCollapseToc = false   # Auto expand and collapse toc                              # 目录自动展开/折叠
   fancybox = true           # see https://github.com/fancyapps/fancybox                 # 是否启用fancybox（图片可点击）
   bootcdn = false           # In china. @Deprecated: use [params.publicCDN]             # 是否使用bootcdn(@Deprecated: 请使用[params.publicCDN])
-  mathjax = false           # see https://www.mathjax.org/                              # 是否使用mathjax（数学公式）
+  mathjax = true           # see https://www.mathjax.org/                              # 是否使用mathjax（数学公式）
   contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
 
   changyanAppid = ""        # Changyan app id             # 畅言

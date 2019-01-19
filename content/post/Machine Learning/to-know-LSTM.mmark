@@ -8,7 +8,6 @@ tags:
 categories:
     - Machine Learning
 comment: true
-mathjax: true
 ---
 
 [生成句子CNN](https://tensorflow.google.cn/tutorials/sequences/text_generation)
