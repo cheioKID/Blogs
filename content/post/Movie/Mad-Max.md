@@ -7,6 +7,7 @@ tags:
 categories:
     - Movie
 comment: true
+draft: true
 ---
 
 ## Max和Furiosa以及其他同伴之间的友情

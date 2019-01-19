@@ -7,6 +7,8 @@ tags:
 categories:
     - Memory
 comment: true
+draft: true
+
 ---
 
 我是上礼拜四（1月10日）面谈的，再不记下来我就忘的差不多了。

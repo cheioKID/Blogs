@@ -8,9 +8,8 @@ tags:
 categories:
     - Machine Learning
 comment: true
+mathjax: true
 ---
-
-
 
 [生成句子CNN](https://tensorflow.google.cn/tutorials/sequences/text_generation)
 
@@ -52,7 +51,7 @@ LSTM旨在避免long-term dependency 问题，记住长时间的信息是它的�
 
 Cell state 像传送带一样使信息保持不变的向前流动，在此期间有较少的线性交互。LSTM并不直接的更改 cell state 信息，而是由 gate 来控制，gate 实际上就是由 sigmoid 和点乘操作组成的门。Sigmoid通过输出介于[0,1]之间实数表示信息通过的量。LSTM有三个这样的 gate 。
 
-#####详细的步骤
+##### 详细的步骤
 
 如果想要 cell state 遗忘某些信息，LSTM 中的“遗忘门”（forget gate layer）可以达到这种效果。它的输入是上一步隐藏层 $h_{t-1}$ 和当前输入值 $x_t$ ，为 cell state 中的每个值都输出一个[0,1]之间的值，表示忘记的程度。
 

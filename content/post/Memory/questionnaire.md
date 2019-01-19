@@ -7,6 +7,7 @@ tags:
 categories:
     - Memory
 comment: true
+draft: true
 ---
 
 # 2018
