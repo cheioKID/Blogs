@@ -1,3 +1,17 @@
+---
+date: 2018-10-16
+title: "Symphony-No.9"
+tags:
+    - Symphony
+    - Beethoven
+    - Music
+categories:
+    - Music
+comment: true
+---
+
+## Edition 1
+
 Froh, froh, wie seine Sonnen, seine Sonnen fliegen, 
 
 froh wie, seine, Sonnen, fliegen,
@@ -15,10 +29,6 @@ wie ein Held zum Siegen,
 laufet, Brüder, eure Bahn, 
 
 wie ein Held zum Siegen.
-
-
-
-
 
 
 
@@ -48,17 +58,7 @@ Alle Menschen werden Brüder,
 
 Wo dein sanfter Flügel weilt. (合唱)
 
-
-
-
-
-
-
-
-
-
-
-
+## Draft
 
 O Freunde, nicht diese Töne!  
 

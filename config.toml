@@ -11,6 +11,9 @@ disableRSS = true
 defaultContentLanguage = "en"
 [Languages.en]
   languageCode = "en"
+[Languages.de]
+  languageCode = "de"
+
 
 hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
 paginate = 7                                              # 首页每页显示的文章数

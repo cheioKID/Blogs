@@ -105,9 +105,9 @@ int main() {
 			if(stack[l] != ch) { //栈顶元素和当前看到的字符不匹配
 				if(stack[l] != 39) { //栈顶元素为E,T,F
 					switch(stack[l]) {
-						case'E':
+						case 'E':
 							m=0; break;
-						case'T':
+						case 'T':
 							m=2;break;
 						case 'F':
 							m=4;break;

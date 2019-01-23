@@ -11,7 +11,7 @@ comment: true
 
 # Install OpenCV and Compile cpp file for Mac
 
-####安装OpenCV2
+#### 安装OpenCV2
 
 ```bash
 brew install opencv@2

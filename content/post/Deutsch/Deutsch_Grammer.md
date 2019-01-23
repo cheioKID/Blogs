@@ -1,3 +1,15 @@
+---
+date: 2018-05-08
+title: “Deutsch_Grammer”
+tags:
+    - Deutsch
+    - German
+    - Grammer
+categories:
+    - Deutsch
+comment: true 
+---
+
 ####换音与变音
 元音只在第二人称及第三人称单数时发生变化。 
 并非所有带e和a的动词在变位时都会发生元音变化：

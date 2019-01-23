@@ -52,9 +52,9 @@ Cell state 像传送带一样使信息保持不变的向前流动，在此期间
 
 ##### 详细的步骤
 
-如果想要 cell state 遗忘某些信息，LSTM 中的“遗忘门”（forget gate layer）可以达到这种效果。它的输入是上一步隐藏层 $h_{t-1}$ 和当前输入值 $x_t$ ，为 cell state 中的每个值都输出一个[0,1]之间的值，表示忘记的程度。
+如果想要 cell state 遗忘某些信息，LSTM 中的“遗忘门”（forget gate layer）可以达到这种效果。它的输入是上一步隐藏层 $$h_{t-1}$$ 和当前输入值 $$x_t$$ ，为 cell state 中的每个值都输出一个[0,1]之间的值，表示忘记的程度。
 
-如果想要将一些新的信息存入 cell state 中，首先，采用“传入门”（input gate layer）来决定被更新的信息，接着，tanh layer 创建一个新的候选值 $\tilde{C}_t$ ，最后组合这两个值来更新 state。
+如果想要将一些新的信息存入 cell state 中，首先，采用“传入门”（input gate layer）来决定被更新的信息，接着，tanh layer 创建一个新的候选值 $$\tilde{C}_t$$ ，最后组合这两个值来更新 state。
 
 最后，先根据 Sigmoid 决定 cell state 的输出部分，然后和tanh的值相乘，得到输出结果。
 
